@@ -1,0 +1,33 @@
+/* Visual layer only. Original workout, audio and recording engines are unchanged. */
+:root{--bg:#101113;--red:#f04438;--sub:#b2b2b8}
+body{background:#09090b;font-family:Arial,Helvetica,sans-serif}
+body .app-shell{max-width:560px;background:#101113;padding-left:24px;padding-right:24px;box-shadow:none}
+.site-header{height:74px;border-bottom:1px solid #ffffff12}.brand{font-style:italic;letter-spacing:-1px}.brand span{font-style:normal;letter-spacing:3px}
+.welcome{position:relative;padding:28px 105px 24px 0;min-height:178px}
+.welcome h1{font-size:clamp(42px,10vw,58px);line-height:.97;letter-spacing:-1px}
+.welcome .eyebrow{font-size:9px;letter-spacing:1.4px;margin-bottom:12px}
+.hero-subtitle{font-size:12px;line-height:1.6;max-width:230px;color:#b8b8be}
+.hero-character-frame{position:absolute;right:-5px;top:24px;width:115px;height:132px!important;margin:0;align-items:center}
+.hero-character{width:100%;height:100%;object-fit:contain;filter:none}.hero-halo,.hero-mark,.hero-stats{display:none}
+.session-chip{margin:0 0 8px;padding:16px 12px;border:1px solid #36363b;border-radius:14px;background:#191a1e;min-height:72px}.session-chip .chip-edit{color:#fff;font-size:12px;border:0}.session-chip b{font-size:15px}.session-chip small{line-height:1.45;color:#b5b5bd}
+/* The same brush texture used by the PRIMAL Products homepage. */
+.transport .start,.record-cta,.record-start,.record-save,.record-secondary,.outline,.brush-action{position:relative;isolation:isolate;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;color:#fff;min-height:62px;padding:17px 28px;text-decoration:none}
+.transport .start::before,.record-cta::before,.record-start::before,.record-save::before,.record-secondary::before,.outline::before,.brush-action::before{content:'';position:absolute;inset:0;z-index:-1;background:#ef4237;-webkit-mask:url('./brush-stroke.png') center/100% 100% no-repeat;mask:url('./brush-stroke.png') center/100% 100% no-repeat;pointer-events:none}
+.transport .start{justify-content:center;gap:16px;font-size:13px;letter-spacing:.5px;min-height:66px}
+.record-cta::before,.record-secondary::before,.outline::before,.brush-action::before{background:#f5f3ee}
+.record-cta,.record-secondary,.outline,.brush-action{color:#141416!important;font-weight:700}
+.record-cta{justify-content:center;min-height:58px;gap:10px;padding:14px 28px;text-align:center}
+.record-cta .record-action-icon{width:25px;height:25px;background:none;border:0;color:#141416}
+.record-cta .record-action-copy{flex:0 1 auto;color:#141416}.record-action-copy b{font-size:13px}.record-action-copy small,.record-action-arrow{display:none}
+.transport{gap:8px;margin-top:12px}.transport .secondary{min-height:44px;font-size:12px}.transport .secondary:disabled{display:none}
+.record-tools{margin:0 0 18px}.session-footnote{font-size:11px;letter-spacing:0;color:#a3a3ac;margin:5px 0 20px}
+.pc-teaser{margin:4px 0 16px;padding:14px 16px;border:1px solid #625731;border-radius:14px;background:#1b1b17}.pc-teaser>.pc-medal{width:32px!important;height:38px!important}.pc-teaser b{font-size:13px}.pc-teaser small{font-size:9px}.pc-teaser em{font-size:11px}
+.ui-options{order:7;border-top:1px solid #ffffff18;border-bottom:1px solid #ffffff18;margin:0 0 18px;padding:0}.ui-options>summary{cursor:pointer;min-height:52px;display:flex;align-items:center;justify-content:space-between;font-size:13px;color:#cccdd3;list-style:none}.ui-options>summary::-webkit-details-marker{display:none}.ui-options>summary::after{content:'+';font-size:22px;color:#aaa}.ui-options[open]>summary::after{content:'−'}.ui-options .primal-music-dock{margin:0 0 14px!important;padding:14px!important;border-radius:12px!important}.ui-options .primal-music-heading small{display:none}
+.ring{min-height:0!important;border-top:0;margin-top:14px;padding-top:10px}.ring-top{font-size:10px;letter-spacing:.6px}.clock-face{margin:22px auto 20px}.timer{font-size:clamp(86px,24vw,128px);color:#f5f3ef}.clock-caption{font-size:10px;letter-spacing:1.4px;color:#b9b9c1}.round-divider{margin-top:22px;letter-spacing:.7px}.sequence{min-height:150px;margin-top:15px}.cue{font-size:13px;color:#b2b2bc;min-height:20px;margin-bottom:14px}.ring .ui-options{margin:8px 0}.execution-control{border:0;margin:0;padding:0 0 12px}.ring-bottom{border:0;padding-top:0}.ring-bottom button{font-size:12px;min-height:44px}
+body:has(.ring:not([hidden])) .legal-footer{color:#9a9aa5}.legal-footer{margin-top:14px;padding-top:20px;font-size:11px}.legal-footer nav{gap:8px 15px}
+body .tab-bar{max-width:510px;border-color:#38393e;border-radius:19px;background:#1b1c20}.tab-bar button{min-height:50px!important}
+body .sheet{background:#141518}body .sheet-header{border-bottom:1px solid #ffffff14;padding-bottom:16px}.sheet h2{font-size:23px;letter-spacing:-.7px}.sheet .group{border-radius:12px}.sheet .field-note{line-height:1.65;color:#b0b0ba}.done{min-height:44px;min-width:60px}.record-lead{font-size:15px;line-height:1.6}.record-start{width:100%;font-size:13px;line-height:1.4}.record-secondary{width:100%;margin-top:10px}.record-save{display:block;text-align:center}.record-save[hidden]{display:none}
+button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #fff!important;outline-offset:4px}button:disabled{opacity:.4}button{touch-action:manipulation}input[type=range]{min-height:32px}
+body[data-state=work] .pc-teaser,body[data-state=prepare] .pc-teaser,body[data-state=rest] .pc-teaser,body[data-state=paused] .pc-teaser{display:none}
+@media(min-width:600px){body{background:#09090b;padding:24px}.welcome{padding-top:30px}.app-shell{border:1px solid #28292e!important;border-radius:24px}.ring{min-height:0!important}}
+@media(max-width:360px){body .app-shell{padding-left:16px;padding-right:16px}.welcome{padding-right:88px}.welcome h1{font-size:40px}.hero-character-frame{width:90px;right:0}.transport .start{font-size:11px;padding-left:20px;padding-right:20px}.session-chip b{font-size:13px}}

@@ -1,0 +1,18 @@
+PRIMAL BOXING — UI BRUSH
+
+SUBIR A GITHUB
+1. Guarda una copia de tu versión actual.
+2. Descomprime este ZIP.
+3. Sube su contenido (no el ZIP ni una carpeta adicional) a la raíz del repositorio que publica /Primal-Boxing/, reemplazando archivos con el mismo nombre.
+4. Conserva CNAME y la configuración de GitHub Pages de tu repositorio.
+5. Espera a que termine Pages y recarga con Ctrl + F5.
+
+Si solo quieres aplicar el cambio visual sobre la versión publicada revisada, reemplaza index.html y añade/reemplaza brush-ui.css, brush-ui.js y brush-stroke.png. El ZIP incluye también todos los recursos originales, música y voces.
+
+CAMBIOS
+Pincelada roja para la acción principal y blanca con texto negro para acciones secundarias. Cabecera compacta. Música y pausa entre combinaciones agrupadas en desplegables. Explicaciones de grabación agrupadas. Ajustes con campos cómodos en móvil. IDs y motores originales conservados.
+
+VERIFICACION
+Los 16 scripts originales coinciden byte por byte con la web consultada. Validación de sintaxis de todos los JavaScript, referencias de index.html e IDs originales. Revisión visual de inicio, ajustes, trofeos y regreso a inicio. El flujo de inicio llega al consentimiento original. No se completó una sesión ni se probó cámara/exportación en un dispositivo físico.
+
+La vista previa dentro de ChatGPT es una demostración visual simplificada. Este paquete contiene la aplicación completa, no esa demostración.
